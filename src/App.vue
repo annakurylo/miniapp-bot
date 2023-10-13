@@ -1,5 +1,5 @@
 <template>
-  <v-navigation></v-navigation>
+  hello
 </template>
 
 <script>
