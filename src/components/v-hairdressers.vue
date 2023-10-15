@@ -29,5 +29,10 @@ export default {
 
 <style lang="scss" scoped>
 .v-hairdressers {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 </style>
