@@ -1,7 +1,7 @@
 <template>
-    <keep-alive>
-      <router-view></router-view>
-    </keep-alive>
+  <keep-alive>
+    <router-view></router-view>
+  </keep-alive>
 </template>
 
 <script>
@@ -18,5 +18,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  border: 1px solid red;
+  padding: 0;
+  max-width: 320px;
+  margin: 0 auto;
 }
 </style>
