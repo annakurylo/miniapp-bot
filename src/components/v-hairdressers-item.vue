@@ -74,7 +74,7 @@ export default {
     //gap: 10px;
     &-img {
       position: relative;
-      min-height: 250px;
+      min-height: 270px;
       border: 3px solid black;
     }
 
@@ -91,6 +91,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 10px;
     &-description {
       background-color: #ff13a7;
       color: rgb(0, 0, 0);
@@ -101,7 +102,7 @@ export default {
       display: flex;
       flex-direction: column;
       &-text {
-        margin: 0 0 10px 0;
+        //margin: 0 0 10px 0;
         text-align: center;
 
         color: #ff13a7;
@@ -122,7 +123,7 @@ export default {
       &-list {
         margin: 0;
         padding: 0;
-        padding: 10px 0 10px 0px;
+        //padding: 0px 0 10px 0px;
         list-style-type: none;
       }
       &-list li {
