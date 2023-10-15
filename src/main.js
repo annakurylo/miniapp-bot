@@ -1,5 +1,7 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-console.log(window.Telegram.WebApp);
+import router from "./router/router";
 
-createApp(App).mount("#app");
+const app = createApp(App);
+app.use(router);
+app.mount("#app");
