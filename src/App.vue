@@ -20,7 +20,7 @@ export default {
   margin-top: 60px;
   border: 1px solid red;
   padding: 0;
-  max-width: 320px;
+  max-width: 425px;
   margin: 0 auto;
 }
 </style>
