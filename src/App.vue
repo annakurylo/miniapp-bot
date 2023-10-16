@@ -15,11 +15,12 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
   margin-top: 60px;
   padding: 0;
   max-width: 425px;
   margin: 0 auto;
   font-family: Cormora;
+  background-color: var(--tg-theme-bg-color);
+  color: var(--tg-theme-text-color);
 }
 </style>
