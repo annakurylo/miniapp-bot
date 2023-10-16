@@ -78,7 +78,6 @@ export default {
   display: flex;
   gap: 10px;
   box-shadow: 0 0 8px 0 #000000;
-  font-size: 12px;
 
   &__general {
     flex: 0 0 40%;

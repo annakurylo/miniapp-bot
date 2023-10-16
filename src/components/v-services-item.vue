@@ -44,11 +44,12 @@ export default {
         flex-direction: column;
         gap: 10px;
         &-name {
-            background-color: #000000;
-            color: #ff13a7;
+            background-color: #ff13a7;
+            color: #000000;
             padding: 10px;
             letter-spacing: 1px;
             text-transform: uppercase;
+            border: 3px solid black;
 
         }
         &-gap {
@@ -65,7 +66,7 @@ export default {
                 float: left;
             }
             &-price {
-                color: #ff13a7;
+                color: #ffffff;
                 background-color:#000000;
                 padding: 2px 10px;
                 border-radius: 10px; 
