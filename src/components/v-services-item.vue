@@ -43,6 +43,8 @@ export default {
         display: flex;
         flex-direction: column;
         gap: 10px;
+        box-shadow: 0 0 8px 0 #000000;
+        padding: 0 0 10px 0;
         &-name {
             background-color: #ff13a7;
             color: #000000;
@@ -58,6 +60,7 @@ export default {
             gap: 2px;
         }
         &-list {
+            padding: 0 5px;
             overflow: hidden;
             &-name {
                 font-style: italic;
