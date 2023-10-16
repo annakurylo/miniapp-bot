@@ -10,8 +10,19 @@
     </div>
     <div class="v-hairdressers-item__about">
       <div class="v-hairdressers-item__about-description">
-        {{ hairdresser_data.description }}
+        <div class="v-hairdressers-item__about-description-text">
+          {{ hairdresser_data.description }}
+        </div>
+        <div class="v-hairdressers-item__about-description-insta">
+          <a
+            :href="hairdresser_data.instagram"
+            class="v-hairdressers-item__about-description-insta-link"
+          >
+            Instagram
+          </a>
+        </div>
       </div>
+
       <div class="v-hairdressers-item__about-services">
         <div class="v-hairdressers-item__about-services-text">Мої послуги:</div>
         <div class="v-hairdressers-item__about-services-list">
@@ -50,9 +61,10 @@ export default {
       return require(`./../assets/img/${FILENAME}`);
     },
     getServices() {
-      return this.hairdresser_data.services
-        .map((s) => s.toLowerCase())
-        .join(", ");
+      return (
+        this.hairdresser_data.services.map((s) => s.toLowerCase()).join(", ") +
+        "."
+      );
     },
     getWorkdays() {
       return this.hairdresser_data.workDays;
@@ -65,7 +77,8 @@ export default {
 .v-hairdressers-item {
   display: flex;
   gap: 10px;
-  box-shadow: 0 0 8px 0 #e0e0e0;
+  box-shadow: 0 0 8px 0 #000000;
+  font-size: 12px;
 
   &__general {
     flex: 0 0 40%;
@@ -93,14 +106,35 @@ export default {
     justify-content: space-between;
     gap: 10px;
     &-description {
-      background-color: #ff13a7;
-      color: rgb(0, 0, 0);
-      font-style: italic;
-      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+
+      &-text {
+        background-color: #ff13a7;
+        color: rgb(0, 0, 0);
+        font-style: italic;
+        border: 3px solid black;
+        padding: 10px;
+      }
+      &-insta {
+        padding: 0px;
+        justify-content: center;
+        display: flex;
+        &-link {
+          text-decoration: none;
+          color: #ff13a7;
+          background-color: #000000;
+          padding: 10px 20px;
+          border-radius: 10px;
+        }
+      }
     }
+
     &-services {
       display: flex;
       flex-direction: column;
+      padding: 0 1px 0 0;
       &-text {
         //margin: 0 0 10px 0;
         text-align: center;
