@@ -4,6 +4,9 @@
         <router-link :to="{ name: 'hairdressers' }">
             <a href="">Перукарі</a>
         </router-link>
+        <router-link :to="{ name: 'services' }">
+            <a href="">Послуги та ціни</a>
+        </router-link>
       </div>
   </div>
 </template>

@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import vNavigation from "./../components/v-navigation"
 import vHairdressers from "./../components/v-hairdressers"
+import vServices from "./../components/v-services"
 
 let router = new createRouter({
     history: createWebHistory(),
@@ -14,6 +15,11 @@ let router = new createRouter({
             path: '/',
             name: 'main',
             component: vNavigation
+        },
+        {
+            path: '/services',
+            name: 'services',
+            component: vServices
         },
     ]
 })
