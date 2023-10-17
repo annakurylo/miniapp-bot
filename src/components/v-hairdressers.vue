@@ -29,7 +29,7 @@ export default {
     tg.MainButton.text = "ghjhgjhgjhg";
     tg.MainButton.isVisible = true;
     console.log(tg);
-    tg.onEvent("popupClosed", function () {
+    tg.onEvent("mainButtonClicked", () => {
       tg.sendData("hello");
     });
   },
