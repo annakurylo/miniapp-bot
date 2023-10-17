@@ -26,7 +26,9 @@ export default {
   methods: {},
   mounted() {
     const tg = window.Telegram.WebApp;
-    tg.onEvent("popupClosed", () => console.log("hello"));
+    tg.onEvent("popupClosed", function () {
+      tg.sendData("hello");
+    });
   },
 };
 </script>
