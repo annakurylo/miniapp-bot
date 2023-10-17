@@ -24,6 +24,10 @@ export default {
     };
   },
   methods: {},
+  mounted() {
+    const tg = window.Telegram.WebApp;
+    tg.onEvent("popupClosed", () => console.log("hello"));
+  },
 };
 </script>
 
