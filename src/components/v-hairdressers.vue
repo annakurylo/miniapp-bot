@@ -26,11 +26,12 @@ export default {
   methods: {},
   mounted() {
     const tg = window.Telegram.WebApp;
-    tg.MainButton.text = "ghjhgjhgjhg";
+    tg.MainButton.text = "Показати перукарів в чаті";
     tg.MainButton.isVisible = true;
-    console.log(tg);
+    tg.color = "#ff13a7";
+    tg.textColor = "#000000"
     tg.onEvent("mainButtonClicked", () => {
-      tg.sendData("hello");
+      tg.sendData("hairderessers");
     });
   },
 };
