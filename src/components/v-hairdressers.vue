@@ -28,8 +28,8 @@ export default {
     const tg = window.Telegram.WebApp;
     tg.MainButton.text = "Показати перукарів в чаті";
     tg.MainButton.isVisible = true;
-    tg.MainButton.color = "#ff13a7";
-    tg.MainButton.textColor = "#000000"
+    tg.MainButton.color = "#000000";
+    tg.MainButton.textColor = "#ffffff"
     tg.onEvent("mainButtonClicked", () => {
       tg.sendData("hairderessers");
     });
