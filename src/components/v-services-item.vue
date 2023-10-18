@@ -11,7 +11,7 @@
         class="v-services-item__group-list"
       >
         <div class="v-services-item__group-list-name">{{service.service}}</div>
-        <div class="v-services-item__group-list-price">{{service.price }}₴</div>
+        <div class="v-services-item__group-list-price">{{service.price }} ₴</div>
     </div>
       </div>
     </div>
