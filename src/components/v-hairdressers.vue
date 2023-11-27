@@ -13,7 +13,6 @@
 <script>
 import hairdressers from "./../../hairdressers";
 import vHairdressersItem from "./v-hairdressers-item";
-import axios from "axios";
 
 export default {
   name: "v-hairdressers",
