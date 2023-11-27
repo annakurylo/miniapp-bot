@@ -34,7 +34,7 @@ export default {
 
     tg.onEvent("mainButtonClicked", () => {
       axios.post(
-        "https://api.telegram.org/bot6519922636:AAHpixAzdS4VHrMeC3I6uAeiSUrhNujAe_o/sendData",
+        "https://localhost:5000/sendData",
         {
           text: "continue",
         }
