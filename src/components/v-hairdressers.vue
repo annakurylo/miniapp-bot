@@ -32,11 +32,10 @@ export default {
     tg.MainButton.color = "#000000";
     tg.MainButton.textColor = "#ff13a7";
 
-    tg.onEvent("mainButtonClicked", () => {
-      axios.post(
-        "https://localhost:5000/sendData",
+    tg.onEvent("mainButtonClicked", async () => {
+      await axios.post("/sendData",
         {
-          "text": "continue",
+          text: "continue",
         }
       );
     });
