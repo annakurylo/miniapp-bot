@@ -13,6 +13,7 @@
 <script>
 import hairdressers from "./../../hairdressers";
 import vHairdressersItem from "./v-hairdressers-item";
+import axios from "axios";
 
 export default {
   name: "v-hairdressers",
@@ -24,14 +25,20 @@ export default {
     };
   },
   methods: {},
-  mounted() {
+  async mounted() {
     const tg = window.Telegram.WebApp;
     tg.MainButton.text = "Continue";
     tg.MainButton.isVisible = true;
     tg.MainButton.color = "#000000";
-    tg.MainButton.textColor = "#ff13a7"
+    tg.MainButton.textColor = "#ff13a7";
+
     tg.onEvent("mainButtonClicked", () => {
-      tg.close();
+      axios.post(
+        "https://api.telegram.org/bot6519922636:AAHpixAzdS4VHrMeC3I6uAeiSUrhNujAe_o/sendData",
+        {
+          text: "continue",
+        }
+      );
     });
   },
 };
