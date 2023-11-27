@@ -31,7 +31,7 @@ export default {
     tg.MainButton.color = "#000000";
     tg.MainButton.textColor = "#ff13a7"
     tg.onEvent("mainButtonClicked", () => {
-      tg.sendData("hairdressers");
+      tg.sendData("continue");
     });
   },
 };
