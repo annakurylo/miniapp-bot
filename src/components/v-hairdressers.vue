@@ -36,7 +36,7 @@ export default {
       axios.post(
         "https://localhost:5000/sendData",
         {
-          text: "continue",
+          "text": "continue",
         }
       );
     });
