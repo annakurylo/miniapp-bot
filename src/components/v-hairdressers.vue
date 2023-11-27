@@ -7,7 +7,6 @@
         :hairdresser_data="hairdresser"
       />
     </div>
-    <button @click="sendData">click</button>
   </div>
 </template>
 
@@ -25,15 +24,7 @@ export default {
       hairdressers: hairdressers,
     };
   },
-  methods: {
-    async sendData() {
-      await axios.post("/sendData",
-        {
-          text: "continue",
-        }
-      );
-    }
-  },
+  methods: {},
   async mounted() {
     const tg = window.Telegram.WebApp;
     tg.MainButton.text = "Continue";
@@ -42,7 +33,6 @@ export default {
     tg.MainButton.textColor = "#ff13a7";
 
     tg.onEvent("mainButtonClicked", async () => {
-      console.log("hello")
       await axios.post("/sendData",
         {
           text: "continue",
