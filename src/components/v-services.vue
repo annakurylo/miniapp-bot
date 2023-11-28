@@ -25,12 +25,12 @@ export default {
   methods: {},
   mounted() {
     const tg = window.Telegram.WebApp;
-    tg.MainButton.text = "Показати ціни в чаті";
+    tg.MainButton.text = "Continue";
     tg.MainButton.isVisible = true;
     tg.MainButton.color = "#000000";
     tg.MainButton.textColor = "#ff13a7"
     tg.onEvent("mainButtonClicked", () => {
-      tg.sendData("services");
+      tg.close()
     });
   },
 };
