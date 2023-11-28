@@ -1,117 +1,117 @@
 const services = [
     {
-        group: "Стрижки",
+        group: "Haircuts",
         pool: [
             {
-                service: "Класична стрижка",
+                service: "Classic haircut",
                 price: 550,
             },
             {
-                service: "Полірування волосся",
+                service: "Hair polishing",
                 price: 300,
             },
             {
-                service: "Стрижка кінців волосся",
+                service: "Cutting the ends of the hair",
                 price: 200,
             },
             {
-                service: "Стрижка чілки",
+                service: "Haircut bangs",
                 price: 400,
             },
         ]
     },
     {
-        group: "Зачіски",
+        group: "Hairstyles",
         pool: [
             {
-                service: "Класична зачіска",
+                service: "Classic hairstyle",
                 price: 430,
             },
             {
-                service: "Весільна зачіска",
+                service: "Wedding hairstyle",
                 price: 850,
             },
             {
-                service: "Вечірня зачіска",
+                service: "Evening hairstyle",
                 price: 560,
             },
             {
-                service: "Плетіння",
+                service: "Braiding hair",
                 price: 300,
             },
             {
-                service: "Накрутка волосся",
+                service: "Hair curling",
                 price: 250,
             },
         ]
     },
     {
-        group: "Укладка",
+        group: "Hair styling",
         pool: [
             {
-                service: "Експрес укладка",
+                service: "Express hair styling",
                 price: 300,
             },
             {
-                service: "Люкс укладка",
+                service: "Luxury hair styling",
                 price: 550,
             }
         ]
     },
     {
-        group: "Фарбування",
+        group: "Hair dyeing",
         pool: [
             {
-                service: "Освітлення коренів",
+                service: "Illuminating hair roots",
                 price: 300,
             },
             {
-                service: "Фарбування",
+                service: "Hair dyeing",
                 price: 500,
             },
             {
-                service: "Мілірування",
+                service: "Hair highlighting",
                 price: 600,
             },
             {
-                service: "Колорування",
+                service: "Hair coloring",
                 price: 550,
             },
             {
-                service: "Омбре",
+                service: "Ombre",
                 price: 750,
             },
             {
-                service: "Балаяж",
+                service: "Balayage",
                 price: 800,
             }
         ]
     },
     {
-        group: "Догляд",
+        group: "Hair care",
         pool: [
             {
-                service: "SPA процедури",
+                service: "SPA procedures",
                 price: 300,
             },
             {
-                service: "Лупа. Очищення",
+                service: "Dandruff. Cleaning",
                 price: 300,
             },
             {
-                service: "Арганова терапія",
+                service: "Argan therapy",
                 price: 550,
             },
             {
-                service: "Мароканське запечатування",
+                service: "Moroccan sealing",
                 price: 550,
             },
             {
-                service: "Кератинове випрямлення",
+                service: "Keratin straightening",
                 price: 999,
             },
             {
-                service: "Каутеризація",
+                service: "Cauterization",
                 price: 800,
             },
         ]
