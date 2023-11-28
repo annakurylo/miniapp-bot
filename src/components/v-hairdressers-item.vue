@@ -24,13 +24,13 @@
       </div>
 
       <div class="v-hairdressers-item__about-services">
-        <div class="v-hairdressers-item__about-services-text">Мої послуги:</div>
+        <div class="v-hairdressers-item__about-services-text">My services:</div>
         <div class="v-hairdressers-item__about-services-list">
           {{ getServices }}
         </div>
       </div>
       <div class="v-hairdressers-item__about-workdays">
-        <div class="v-hairdressers-item__about-workdays-text">Робочі дні:</div>
+        <div class="v-hairdressers-item__about-workdays-text">Workdays:</div>
         <ul class="v-hairdressers-item__about-workdays-list">
           <li v-for="(day, idx) in getWorkdays" :key="idx">{{ day }}</li>
         </ul>

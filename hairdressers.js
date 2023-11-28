@@ -1,36 +1,36 @@
 const hairdressers = [
   {
     image: "1.jpg",
-    name: "Марія Степаненко",
+    name: "Mary Stuart",
     instagram: "https://www.instagram.com/ramilya_beauty_stylist/",
     description:
-      "Перукарка зі стажем 20 років.",
-    services: ["Стрижки", "Фарбування волосся", "Укладка волосся", "Зачіски"],
-    workDays: ["Понеділок", "Середа", "П'ятниця", "Неділя"]
+      "Hairdresser with 20 years of experience.",
+    services: ["Haircuts", "Hair coloring", "Hair styling", "Hairstyles"],
+    workDays: ["Monday", "Wednesday", "Friday", "Sunday"]
   },
   {
     image: "2.jpg",
-    name: "Анна Левченко",
+    name: "Ann Wilson",
     instagram: "https://www.instagram.com/hair__style.kg/",
-    description: "Найкращий майстер 2023 року.",
-    services: ["Стрижки", "Фарбування волосся", "Укладка волосся", "Зачіски"],
-    workDays: ["Вівторок", "Четвер", "П'ятниця", "Субота"]
+    description: "The best master of 2023.",
+    services: ["Haircuts", "Hair coloring", "Hair styling", "Hairstyles"],
+    workDays: ["Tuesday", "Thursday", "Friday", "Saturday"]
   },
   {
     image: "3.jpg",
-    name: "Ярослава Ситник",
+    name: "Victoria Niro",
     instagram: "https://www.instagram.com/elenaloviannikova/",
-    description: "Гарант чудового настрою і вигляду.",
-    services: ["Стрижки", "Фарбування волосся", "Укладка волосся", "Догляд"],
-    workDays: ["Понеділок", "Середа", "П'ятниця", "Неділя"]
+    description: "A guarantor of excellent mood and appearance.",
+    services: ["Haircuts", "Hair coloring", "Hair styling", "Hair care"],
+    workDays: ["Monday", "Wednesday", "Friday", "Sunday"]
   },
   {
     image: "4.jpg",
-    name: "Катерина Вільха",
+    name: "Kate Pierce",
     instagram: "https://www.instagram.com/color_color.b/",
-    description: "Їй довіряють красу і здоров'я волосся.",
-    services: ["Стрижки", "Фарбування волосся", "Укладка волосся", "Догляд"],
-    workDays: ["Вівторок", "Четвер", "Субота", "Неділя"]
+    description: "She is trusted with the beauty and health of hair.",
+    services: ["Haircuts", "Hair coloring", "Hair styling", "Hair care"],
+    workDays: ["Tuesday", "Thursday", "Saturday", "Sunday"]
   },
 ];
 
